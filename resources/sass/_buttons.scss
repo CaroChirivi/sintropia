@@ -1,0 +1,75 @@
+/**
+ * /**
+ * Estilos para botones
+ * @author Carolina Tarapues <carotarapues@gmail.com>
+ */
+
+/*Mis botones*/
+%fnd-button{
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+    border: solid 1px;
+    margin-left: 1%;
+
+    &:hover:enabled{
+        cursor: pointer;
+        font-weight: bold;
+        color: white!important;
+        box-shadow: none!important;
+    }
+}
+
+.fnd-button-new{
+    @extend %fnd-button;
+}
+
+.fnd-button-main{
+    background-color: $fuscia;
+    border-color: $border;
+    text-decoration: none!important;
+    display: inline-block;
+
+    &:hover:enabled{
+        background-color: $border;
+        border: solid 1px $fuscia;
+    }
+}
+
+.fnd-button-box-shadow{
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,.6)!important;
+}
+
+/*Access direct buttons*/
+.quick-link{
+    float: left;
+    width: 22%;
+    height: 170px;
+    margin-top: 3.5%;
+    margin-left: 7.5%;
+    background-color: white;
+    border: solid rgba($dark1, 0.5) 1px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 1% 0;
+
+    &:hover{
+        box-shadow: 2px 2px 5px 2px rgba(0,0,0,.6)!important;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .link-logo{
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 45%;
+        height: 70%;
+    }
+
+    p{
+        font-family: "Titillium Web", sans-serif;
+        font-size: 2.3em;
+        color: $dark2;
+    }
+}

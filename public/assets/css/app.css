@@ -1,0 +1,366 @@
+@charset "UTF-8";
+/*font*/
+/**
+ * /**
+ * estilos modificaciones plantilla ace-master
+ * @author Carolina Tarapues <carotarapues@gmail.com>
+ */
+/*ace theme modifications*/
+.no-skin .nav-list > li > .submenu::before, .no-skin .nav-list > li > .submenu > li::before {
+  border: none !important;
+}
+
+.sidebar.h-sidebar .nav-list {
+  border-width: 0;
+  border-bottom: 2px solid #5D93AB;
+}
+
+#sidebar2 ul li {
+  width: 100%;
+}
+
+#sidebar2 ul li a {
+  height: 39px;
+  line-height: 17px;
+  padding-left: 7px;
+}
+
+#sidebar2 ul li a .menu-icon {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.sidebar .sidebar-shortcuts {
+  text-align: left;
+}
+
+.sidebar .sidebar-shortcuts .centro {
+  text-align: center;
+}
+
+.ace-switch-6:checked + .lbl::before {
+  background-color: #04B486 !important;
+}
+
+/*my header nav bar*/
+.navbar-header .name p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  font-size: 7em;
+  margin-bottom: 0px;
+  line-height: 1.2;
+}
+
+.my-navbar-container {
+  width: 100%;
+}
+
+.skin-4 .navbar {
+  background: white;
+}
+
+.pull-center {
+  width: 74%;
+  height: auto;
+  padding-top: 1%;
+  margin-left: 3%;
+}
+.pull-center p {
+  margin-bottom: 0;
+}
+
+.profile-info-value > span + span::before {
+  content: "";
+}
+
+.ace-nav > li > a > .ace-icon {
+  width: 17px;
+}
+
+/*mangnifing glass*/
+.ace-settings-container {
+  left: 0;
+  right: unset;
+  top: 50px;
+}
+
+/*input*/
+.input-icon.input-icon-right > input {
+  padding-right: 16px;
+}
+
+body {
+  font-family: "Open Sans", "Titillium Web", sans-serif;
+  font-size: 1.1em !important;
+}
+
+a:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  box-shadow: none !important;
+}
+
+/*header*/
+.fnd-logo {
+  background-image: url(../../images/logo.png);
+  width: 135px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+/*utils*/
+.fnd-notShow {
+  display: none !important;
+}
+
+/*colors*/
+.cl-fnd-dark {
+  color: #3A3337 !important;
+}
+.cl-fnd-dark[data-tono="1"] {
+  color: #B1B1B1 !important;
+}
+
+.cl-fnd-pink {
+  color: #B90974 !important;
+}
+
+/*background fnd*/
+.fnd-bk-pink {
+  background-color: #DB758F !important;
+}
+
+.fnd-bk-transparent {
+  background-color: transparent;
+}
+
+/*font size*/
+.fnd-st[data-size="1.6"] {
+  font-size: 1.6em;
+}
+.fnd-st[data-size="3.5"] {
+  font-size: 3.5em;
+}
+
+/*main-container*/
+.main-container::before {
+  background-image: url(../../assets/images/campus/LOGO-BACKGROUND.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+  background-position-x: center;
+  background-position-y: 86%;
+}
+
+/*Menú*/
+#menu {
+  position: absolute;
+  top: 78%;
+  left: 6.8%;
+  width: 50px;
+  max-height: 40px;
+  border-radius: 5px;
+  text-align: left;
+  transition: width 0.25s linear 0s;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: 50;
+  background-color: white;
+}
+#menu:hover {
+  width: 250px;
+  overflow-y: visible;
+  cursor: pointer;
+  max-height: inherit;
+  padding: 2px;
+}
+#menu .menu-header {
+  border-bottom: solid #B90974 1px;
+  height: 45px;
+}
+#menu .menu-header .menu-header-back {
+  background-color: #D30889;
+  border-radius: 5px;
+  width: auto;
+  height: 40px;
+}
+#menu .menu-header .menu-header-back .menu-header-icon {
+  text-align: center;
+  max-width: 50px;
+}
+#menu .menu-body .sidebar {
+  background-color: transparent !important;
+  border: none !important;
+  width: 100%;
+}
+#menu .menu-body .submenu a {
+  margin-left: 13%;
+}
+#menu .menu-body ul li {
+  width: 100%;
+  border-color: transparent;
+}
+#menu .menu-body ul li .submenu > li::before {
+  border: none;
+}
+#menu .menu-body ul li::before {
+  display: none;
+}
+#menu .menu-body ul li a {
+  height: 25px;
+  padding: 0px 15px;
+  transition: 0.25 linear;
+  background-color: transparent;
+  color: #3A3337;
+  font-size: 1.2em;
+}
+#menu .menu-body ul li a i {
+  color: #D30889;
+}
+#menu .menu-body ul li a:hover {
+  background-color: #3A3337;
+  color: white !important;
+}
+#menu .menu-body ul li a:hover .menu-icon {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+/*user perfil*/
+.fnd-perfil {
+  margin-top: 2.506%;
+}
+
+.fnd-dropdown-modal {
+  width: 220px !important;
+  height: 55px !important;
+}
+.fnd-dropdown-modal a i {
+  margin-top: 16%;
+  margin-left: 4%;
+  text-align: right;
+}
+
+.fnd-nav-user-photo {
+  border: none !important;
+  position: absolute;
+  top: 1%;
+  left: -21%;
+  max-width: 69px !important;
+}
+
+.fnd-user-info {
+  margin-left: 2%;
+  margin-top: 5%;
+  font-size: 1.5em;
+  max-width: 214px;
+  width: 160px;
+}
+
+.fnd-dropdown-toggle::after {
+  content: none;
+}
+
+/**
+ * /**
+ * Estilos para botones
+ * @author Carolina Tarapues <carotarapues@gmail.com>
+ */
+/*Mis botones*/
+.fnd-button-new {
+  border-radius: 5px;
+  color: white;
+  font-size: 1.5em;
+  border: solid 1px;
+  margin-left: 1%;
+}
+.fnd-button-new:hover:enabled {
+  cursor: pointer;
+  font-weight: bold;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.fnd-button-main {
+  background-color: #D30889;
+  border-color: #B90974;
+  text-decoration: none !important;
+  display: inline-block;
+}
+.fnd-button-main:hover:enabled {
+  background-color: #B90974;
+  border: solid 1px #D30889;
+}
+
+.fnd-button-box-shadow {
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.6) !important;
+}
+
+/*Access direct buttons*/
+.quick-link {
+  float: left;
+  width: 22%;
+  height: 170px;
+  margin-top: 3.5%;
+  margin-left: 7.5%;
+  background-color: white;
+  border: solid rgba(177, 177, 177, 0.5) 1px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 1% 0;
+}
+.quick-link:hover {
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.6) !important;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.quick-link .link-logo {
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 45%;
+  height: 70%;
+}
+.quick-link p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.3em;
+  color: #777576;
+}
+
+/**
+ * /**
+ * archivo estilo vistas de autenticación
+ * @author Carolina Tarapues <carotarapues@gmail.com>
+ */
+.login-background {
+  background-color: #DB758F;
+}
+
+.login-box {
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.6) !important;
+  background-color: white !important;
+  margin-top: 25%;
+}
+.login-box .widget-main {
+  background-color: white !important;
+}
+
+/*Logo*/
+.fnd-login-logo {
+  background-image: url("../../images/logo.png");
+  width: 135px;
+  height: 170px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+.login-container {
+  width: 450px;
+}

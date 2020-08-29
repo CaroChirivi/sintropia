@@ -1,0 +1,91 @@
+/**
+ * /**
+ * estilos modificaciones plantilla ace-master
+ * @author Carolina Tarapues <carotarapues@gmail.com>
+ */
+
+/*ace theme modifications*/
+.no-skin .nav-list > li > .submenu::before, .no-skin .nav-list > li > .submenu > li::before {
+    border: none!important;
+}
+
+.sidebar.h-sidebar .nav-list {
+    border-width: 0;
+    border-bottom: 2px solid #5D93AB;
+}
+
+#sidebar2 ul li{
+    width: 100%;
+}
+
+#sidebar2 ul li a{
+    height: 39px;
+    line-height: 17px;
+    padding-left: 7px;
+}
+
+#sidebar2 ul li a .menu-icon{
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.sidebar .sidebar-shortcuts {
+    text-align: left;
+}
+
+.sidebar .sidebar-shortcuts .centro{
+    text-align: center;
+}
+
+.ace-switch-6:checked + .lbl::before{
+        background-color: $green1!important;
+}
+
+/*my header nav bar*/
+
+.navbar-header .name p{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 7em;
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+
+.my-navbar-container{
+    width: 100%;
+}
+
+.skin-4 .navbar {
+    background: white;
+}
+.pull-center{
+    width: 74%;
+    height: auto;
+    padding-top: 1%;
+    margin-left: 3%;
+
+    p{
+        margin-bottom: 0;
+    }
+}
+
+
+.profile-info-value > span + span::before {
+    content: "";
+}
+
+.ace-nav > li > a > .ace-icon{
+    width: 17px;
+}
+
+/*mangnifing glass*/
+.ace-settings-container {
+    left: 0;
+    right: unset;
+    top: 50px;
+}
+
+/*input*/
+.input-icon.input-icon-right > input{
+    padding-right: 16px;
+}

@@ -1,0 +1,20 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import '_variables';
+
+// modificaciones tema
+@import '_customTheme.scss';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+//app style
+@import '_fndstyle';
+
+//buttons style
+@import '_buttons';
+
+//auth
+@import '_auth.scss';

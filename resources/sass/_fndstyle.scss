@@ -1,0 +1,188 @@
+body{
+    font-family: $main-font;
+    font-size: 1.1em!important;
+}
+
+a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    box-shadow: none!important;
+}
+
+/*header*/
+.fnd-logo{
+    background-image: url(../../images/logo.png);
+    width: 135px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+/*utils*/
+.fnd-notShow{
+    display: none!important;
+}
+
+/*colors*/
+.cl-fnd-dark{
+    color: $dark!important;
+    &[data-tono="1"]{ color: $dark1!important;}
+}
+
+.cl-fnd-pink{
+    color: $border!important;
+}
+
+/*background fnd*/
+.fnd-bk-pink{
+    background-color: $pink1!important;
+}
+
+.fnd-bk-transparent{ background-color: transparent;}
+
+/*font size*/
+.fnd-st{
+    &[data-size="1.6"]{font-size: 1.6em;}
+    &[data-size="3.5"]{font-size: 3.5em;}
+}
+
+/*main-container*/
+.main-container::before {
+    background-image: url(../../assets/images/campus/LOGO-BACKGROUND.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-position-x: center;
+    background-position-y: 86%;
+}
+
+/*Menú*/
+#menu{
+    position: absolute;
+    top: 78%;
+    left: 6.8%;
+    width: 50px;
+    max-height: 40px;
+    border-radius: 5px;
+    text-align: left;
+    transition: width .25s linear 0s;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 50;
+    background-color: white;
+
+    &:hover{
+        width: 250px;
+        overflow-y: visible;
+        cursor: pointer;
+        max-height: inherit;
+        padding: 2px;
+
+        // .menu-header{
+        //     padding: 2px;
+        // }
+    }
+
+    .menu-header{
+        border-bottom: solid $border 1px;
+        height: 45px;
+
+        .menu-header-back{
+            background-color: $fuscia;
+            border-radius: 5px;
+            width: auto;
+            height: 40px;
+
+            .menu-header-icon{
+                text-align: center;
+                max-width: 50px;
+            }
+        }
+    }
+
+    .menu-body{
+        .sidebar{
+            background-color: transparent!important;
+            border: none!important;
+            width: 100%;
+        }
+
+        .submenu a{
+            margin-left: 13%;
+        }
+
+        ul li{
+            width: 100%;
+            border-color: transparent;
+
+            .submenu > li::before{
+                border: none;
+            }
+
+            &::before{
+                display: none;
+            }
+
+            a{
+                height: 25px;
+                padding: 0px 15px;
+                transition: 0.25 linear;
+                background-color: transparent;
+                color: $dark;
+                font-size: 1.2em;
+        
+                i{
+                    color: $fuscia;
+                }
+
+                &:hover{
+                    background-color: $dark;
+                    color: white!important;
+
+                    .menu-icon{
+                        filter: brightness(0) invert(1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*user perfil*/
+
+.fnd-perfil{
+    margin-top: 2.506%;
+}
+
+.fnd-dropdown-modal{
+    width: 220px!important;
+    height: 55px!important;
+    a i{
+        margin-top: 16%;
+        margin-left: 4%;
+        text-align: right;
+    }
+}
+
+.fnd-nav-user-photo{
+    border: none!important;
+    position: absolute;
+    top: 1%;
+    left: -21%;
+    max-width: 69px!important;
+}
+
+.fnd-user-info{
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: 1.5em;
+    max-width: 214px;
+    width: 160px;
+}
+
+.fnd-dropdown-toggle::after{
+    content: none;
+}
